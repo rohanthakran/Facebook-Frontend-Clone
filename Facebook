@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Facebook -login in or sign up</title>
+		<link rel="icon" href="452.png">
 		<style type="text/css">
 			body
 			{
@@ -12,11 +13,13 @@
 		      margin: 0;
 		      padding: 0;
 		       unicode-bidi: embed;
+		       min-width: 120px;
 			}
 			.head
 			{
              height: 82px;
-             width: 100%;
+           
+             min-width: 120px;
              
             
              background-image: linear-gradient(#4a6aad,#3b5998);
@@ -96,7 +99,8 @@
 	 margin-left: 12px;
 }
   .icomna{
-       margin-top: -11px;
+       margin-top: 1%;
+       min-width: 120px;
   }
   .back{
       background-image: linear-gradient( #ffffff,#d8dfea);
@@ -104,7 +108,8 @@
 }
 .atr{
           margin-top: 70px;
-          margin-left: 300px;
+          margin-left: 19%;
+
   }
   .signup {
              font-size:36px;
@@ -113,6 +118,11 @@
              font-family: inherit;
              -webkit-font-smoothing: antialiased;
 }
+.gradient
+  {
+        min-width: 1400px;
+
+  } 
  
 }
 .bolder {
@@ -168,6 +178,7 @@ h1 {
   padding: 20px 0;
    font-size: 45px;
    letter-spacing: 0.01px;
+    min-width: 120px;
 }
 
 #button {
@@ -267,9 +278,9 @@ h1 {
   vertical-align:top;
   width:399px;
   height:200px;
-  float:right;
   margin-top: -280px;
-  margin-right: 320px;
+  margin-left: 45%;
+   
 }
 
 .signup {
@@ -293,6 +304,7 @@ h1 {
 .formbox {
   display: inline-block;
   width:399px;
+  min-width: 120px;
 }
 
 .inputbody {
@@ -303,6 +315,7 @@ h1 {
 -webkit-border-radius: 5px;
   color:#333;
   margin-bottom:10px;
+   min-width: 120px;
 }
 
 ::-webkit-input-placeholder {
@@ -469,16 +482,14 @@ margin-bottom: 10px;
             <h1 class="logowrapper">facebook</h1>
            </div>
         </div>
-
-        <div class="back">
+<div class=gradient>
+<div class="back">
 <div class="atr">
 
   <h1 style="color:#032968;font-family: Arial, Helvetica, sans-serif;font-size:20px;line-height: 1.6; letter-spacing: 0.1px; margin-top: -25px;">Facebook help  you to connect and share with the<br>people in your life.</h1>
 <div class="icomna">
   <img src="2314.png">
 </div>
-</div>
-
 <div id="rightbod">
 	<div class="signup bolder">Create an account</div>
 	<div class="free bolder">It is free and will always be free.</div>
@@ -520,6 +531,7 @@ margin-bottom: 10px;
                 </label>
               </span>
             </div>
+
             <div class="formbox">
               <div class="agree">
                 By clicking Sign Up, you agree to our <div class="link">Terms</div> and that you have read our <div class="link">Data Use Policy</div>, including our <div class="link">Cookie Use</div>.
@@ -534,7 +546,10 @@ margin-bottom: 10px;
       </div>
      </div>
     </div>
-	
+
+	</span>
+</div>
+</div>
 </div>
 	</body>
 </html>
