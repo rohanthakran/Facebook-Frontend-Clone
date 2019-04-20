@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Facebook login or sign up</title>
+		<link rel="icon" href="452.png">
+		<style type="text/css">
+				.head
+				{
+		height: 45px;
+		
+		min-width: 120px;
+		
+		
+		background-image: linear-gradient(#4a6aad,#3b5998);
+		
+		
+		border-bottom: 1px solid #133783;
+		min-height: 42px;
+		min-width:  1200px;
+		position: relative;
+		/* background-position: 307px 25px;
+		background-size: 172px 39px;
+		z-index: 1;*/
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		
+			
+			}
+			h1
+			{
+			font-family: tahoma,verdana,arial,sans-serif;
+		font-size: 29px;
+		letter-spacing:0.05px;
+		margin: 0;
+		color:#fff;
+		-webkit-font-smoothing: antialiased;
+		text-align: center;
+		padding: 12px;
+			}
+			body
+			{
+				margin: 0px;
+			}
+			.form
+			{
+				text-align: center;
+		
+		
+		background-color: #eceff5;
+		margin : 0px;
+			}
+			input
+			{
+				width: 400px;
+				height: 45px;
+				border-width: 0.1px;
+				border-radius: none;
+				border-color: black;
+				box-shadow: 12px;
+			}
+			.button
+		{
+		width:420px;
+		height:18px;
+		background-color: #0077B5;
+		margin-top: 7px;
+		border-color:#8b9dc3 #2f477a #29447e #1a356e;
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		color:#fff;
+		border: none;
+		border-radius: 3px;
+		box-sizing: border-box;
+		font-size: 14px;
+		height: 36px;
+		line-height: 36px;
+		padding: 0 16px;
+		}
+		.line2
+		{
+		line-height: 1em;
+		position: relative;
+		outline: 0;
+		border: 0;
+		color: black;
+		text-align: center;
+		height: 1.5em;
+		opacity: .5;
+		 &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+		}
+			
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<h1>facebook</h1>
+		</div>
+		<div class="form">
+			<form>
+				<input style="margin-top: 12px; padding: 3px 10px; font-size: 14px; line-height: 18px;     font-family: Helvetica, Arial, sans-serif;" type="text" name="Mobile" placeholder="Mobile or email address">
+			</form>
+			<form>
+				<input style="padding: 3px 10px; font-size: 14px; line-height: 18px;     font-family: Helvetica, Arial, sans-serif;" type="password" name="Mobile" placeholder="Password">
+			</form>
+			<button class="button">Login</button>
+			 <hr class="line2" data-content="AND">
+			
+		</div>
+	</body>
+</html>
