@@ -149,9 +149,10 @@
 		.back
 		{
 			background-image: linear-gradient( #ffffff,#d8dfea);
-			height: 550px;
+			
 			background-size: cover;
 			min-width:  1200px;
+			min-height: 580px;
 			
 			
 		}
@@ -237,7 +238,7 @@
 		color: #365899;
 		cursor: pointer;
 		text-decoration: none;
-		font-size: 13px;
+		font-size: 15px;
 		font-weight: bold;
 		display: inline-block;
 		}
@@ -252,6 +253,93 @@
 		margin-top: 10px;
 		padding-top: 15px;
 		
+		}
+		.footer
+		{
+			font-size: 11px;
+		}
+		.foter2
+		{
+			margin: 0 auto;
+		width: 980px;
+		margin-top: 35px;
+		
+		}
+		
+		.foter table
+		{
+		line-height: 50px; width: 400px;
+		}
+		.foter tbody
+		{
+		border-spacing: 2px;
+		}
+		.foter td
+		{
+		
+		padding
+		:0px;
+		margin: 0px;
+		}
+		.foter a
+		{
+		
+		color: #3b5998;
+		text-decoration: none;
+		font-size: 12px;
+		padding-left: 12px;
+		font-weight: lighter;
+		}
+		.foter a:hover
+		{
+			text-decoration: underline;
+		}
+		#footer {clear: both; margin-top: 40px;font-size: 11px; margin-bottom: 20px;}
+		li
+		{
+			list-style-type: none;
+		}
+		.foter3
+		{
+		padding-left: 2px;
+		}
+		.foter3 table
+		{
+		line-height: 50px; width: 400px;
+		}
+		.foter3 tbody
+		{
+		border-spacing: 2px;
+		}
+		.foter3 td
+		{
+		
+		padding
+		:0px;
+		margin: 0px;
+		}
+		.a
+		{
+			color: #666;
+			font-size: 15px;
+			font-family: inherit;
+			font-weight: bold;
+		}
+		.foter3 a
+		{
+		
+		color: #3b5998;
+		text-decoration: none;
+		font-size: 12px;
+		padding-left: 12px;
+		}
+		.foter3 a:hover
+		{
+			text-decoration: underline;
+		}
+		::-webkit-input-placeholder 
+		{ 
+		   opacity: 0.7;
 		}
 		</style>
 	</head>
@@ -274,16 +362,14 @@
 							<button class="button">Log in</button>
 						</td>
 					</tr>
-					<tr>
-						<td></td>
-					</tr>
+					
 					<td>
 						
 						<td class="row2 h">Forgotten account?</td>
 					</table>
 					<img src="re.png" style="width:172px;height:39px; margin-top: 22px;">
 					
-				</div>
+				7				</div>
 			</div>
 			<div class="back">
 				<div class="gradient">
@@ -341,8 +427,9 @@
 										<div>
 											<div class="re">
 												<div class="formbox">
+													<div class="a">
 													<div class="lin">Create a Page</div> <div class="lin2">for a celebrity, band or business.</div>
-													
+													</div>
 												</div>
 											</div>
 										</div>
@@ -354,5 +441,79 @@
 				</div>
 			</div>
 			
+			<div class="foter2">
+				<table class="foter3">
+					<tbody>
+						<tr>
+							<td >
+                            <a style="color: #737373;" href="#">English (UK)</a></td>
+							<td><a href="#">हिन्दी</a></td>
+							<td><a href="#">ਪੰਜਾਬੀ</a></td>
+							<td><a href="#">اردو</a></td>
+							<td><a href="#">தமிழ்</a></td>
+							<td><a href="#">বাংলা<</a></td>
+							<td><a href="#">मराठी</a></td>
+							<td><a href="#">తెలుగు</a></td>
+							<td><a href="#">ગુજરાતી<</a></td>
+							<td><a href="#">ಕನ್ನಡ</a></td>
+							<td><a href="#">മലയാളം</a></td>
+							<td></td>
+						</tr>
+					</tbody>
+					
+				</table>
+				<table class="foter">
+					<tbody>
+						<tr>
+							
+							<td><a href="#">Sign Up</a></td>
+							<td><a href="#">Log in </a></td>
+							<td><a href="#">Messenger</a></td>
+							<td><a href="#">Facebook Lite </a></td>
+							<td><a href="#">Find Friends</a></td>
+							<td><a href="#">People<</a></td>
+							<td><a href="#">Profiles</a></td>
+							<td><a href="#">Pages</a></td>
+							<td><a href="#">Page categories</a></td>
+							<td><a href="#">Places</a></td>
+							<td><a href="#">Games</a></td>
+							<td><a href="#">Locations</a></td>
+							<td><a href="#">Market plces</a></td>
+							<td><a href="#">Groups</a></td>
+							</tr>
+						</tbody></table>
+
+				<table class="foter">
+					 <tbody>
+					 	<tr>
+							<td><a href="#">Instagram</a></td>
+							<td><a href="#">Local</a></td>
+							<td><a href="#">Fund raisers</a></td>
+							<td><a href="#">About</a></td>
+							<td><a href="#">Create ad</a></td>
+							<td><a href="#">Create Page</a></td>
+							<td><a href="#">Deveplores</a></td>
+							<td><a href="#">Careers</a></td>
+							<td><a href="#">Privacy</a></td>
+							<td><a href="#">Cookies</a></td>
+							<td><a href="#">AdChoices</a></td>
+							<td><a href="#">Terms</a></td>
+							<td><a href="#">Account security</a></td>
+							<td><a href="#">Login</a></td>
+							<td><a href="#">Login help</a></td>
+							<td><a href="#">Help </a></td>
+
+							
+							
+						</tr>
+					</tbody>
+				</table>
+				<div id="footer">
+					<span class="copy">Facebook &copy; 2019</span>
+				</div>
+			</div>
+				
+				
+			</div>
 		</body>
 	</html>
