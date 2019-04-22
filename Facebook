@@ -32,7 +32,7 @@
 			.navbar
 		{
 		margin: 0 auto;
-		width:980px;
+		width:1000px;
 		height:59px;
 		}
 		.tabl
@@ -141,6 +141,7 @@
 			background-color: white;
 			font-size: 13px;
 			width: 65px;
+			padding: 4px;
 		}
 		.free {
 		font-size:19px;
@@ -170,12 +171,14 @@
 		.fb1 {
 		display:inline-block;
 		vertical-align: middle;
+		font-size: 11px;
+    max-width: 150px;
 		}
 		
 		.why {
 		font-size: 11px;
 		color: #3b5998;
-		width:150px;
+		
 		margin-left:10px;
 		cursor:pointer;
 		}
@@ -224,7 +227,7 @@
 		border-color: #1d2a5b;
 		margin: 0;
 		width: 142px;
-		border: 1px solid #bdc7d8;
+		border: 1px solid black;
 		margin: 0;
 		padding: 3px;
 		
@@ -376,12 +379,12 @@
 					<div class="my">
 						
 						<div class="icomna">
-							<h1 style="color:#032968;font-family: Arial, Helvetica, sans-serif;font-size:20px;line-height: 1.6; letter-spacing: 0.1px;">Facebook help  you to connect and share with the<br>people in your life.</h1>
+							<h1 style="color:#032968;font-family: Arial, Helvetica, sans-serif;font-size:20px;line-height: 1.6; letter-spacing: 0.1px;">Facebook helps you connect and share with the<br> people in your life.</h1>
 							<img src="2314.png">
 						</div>
 						<div class="roll2">
 							<div class="signup bolder">Create an account</div>
-							<div class="free bolder">It is free and will always be free.</div>
+							<div class="free bolder">It's free and always will be.</div>
 							<div class="formbox">
 								<input type="text" class="inputbody in1" placeholder="First name">
 								<input type="text" class="inputbody in1 fr" placeholder="Surname">
